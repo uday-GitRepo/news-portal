@@ -59,10 +59,10 @@ Follow these steps to set up and run the project locally:
       
 	Option 1:
 
-		Open the Package Manager Console in Visual Studio (View -> Other Windows -> Package Manager Console).
-		In the console, navigate to the directory of your solution or project.
-		Run the following command:
-		dotnet restore
+		- Open the Package Manager Console in Visual Studio (View -> Other Windows -> Package Manager Console).
+		- In the console, navigate to the directory of your solution or project.
+		- Run the following command:
+		  	dotnet restore
 
 	Options 2:
 
