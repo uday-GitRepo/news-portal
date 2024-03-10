@@ -15,7 +15,7 @@ This repository contains DB scripts and changes reuired to run the POC App.
 
 Before running the database scripts, ensure that the following prerequisites are met:
 - [Database Server](#) - Install and configure SQL Server.
-- [Client Tool](#) - Install a SQL Server managment studio to execute the SQL scripts.
+- [Client Tool](#) - Install  SQL Server managment studio to execute the SQL scripts.
 
 
 ## Database Configuration
@@ -163,11 +163,11 @@ Follow these steps to set up and run the project locally:
 
 
 4. Update the BASE_URI value with WEB API prj base url in the src/app/core/constnts.ts path of ANgular App.
-4. Open a Terminal from Visual Studio COde menu options
+4. Open a Terminal from Visual Studio Code menu options
 5. Go to main project directory vid cd path command
 6. Run ng serve to build and run the project.
 
-## **Verification:** Verify the ANgular UI screen is loaded witout eroors.
+## **Verification:** Verify the Angular UI screen is loaded wittout erros.
 
 
       
