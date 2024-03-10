@@ -57,17 +57,19 @@ Follow these steps to set up and run the project locally:
 2.  Unzip and Open the solution file in the Visual Studion
 3.  If the NuGet packages are missing, initiate the restoration process as follows
       
-	Option 1: 
+	Option 1:
+
 		Open the Package Manager Console in Visual Studio (View -> Other Windows -> Package Manager Console).
 		In the console, navigate to the directory of your solution or project.
 		Run the following command:
 		dotnet restore
 
-	Options 2: 
+	Options 2:
+
 		Right-click on your solution in Solution Explorer.
 		Choose the Restore NuGet Packages option from the context menu.
 
-4. The following modifications are necessary in the main project.
+5. The following modifications are necessary in the main project.
 
 	Program.cs
    		** Typically, web browsers restrict cross-domain API calls. Therefore, it's essential to include the base URL of the Angular project in the CORS 		   policy of the Web API.
@@ -78,8 +80,8 @@ Follow these steps to set up and run the project locally:
 	appsettings.json
    		** Update the value of the connection string for both NewsArticleStore in the ConnectionStrings section and connectionString in the Serilog section.
 
-5. Right click on the solution and build
-6. Run the WEbB API App by Ctrl + F5
+6. Right click on the solution and build
+7. Run the WEbB API App by Ctrl + F5
 
  
 ## **Verification:** Verify the functionality of the APIs by testing with Postman or Swagger UI.
