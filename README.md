@@ -66,22 +66,24 @@ Follow these steps to set up and run the project locally:
 
 	Options 2:
 
-		Right-click on your solution in Solution Explorer.
-		Choose the Restore NuGet Packages option from the context menu.
+		- Right-click on your solution in Solution Explorer.
+		- Choose the Restore NuGet Packages option from the context menu.
 
 5. The following modifications are necessary in the main project.
 
 	Program.cs
+
    		** Typically, web browsers restrict cross-domain API calls. Therefore, it's essential to include the base URL of the Angular project in the CORS 		   policy of the Web API.
 
 		 builder.WithOrigins("http://localhost:55212") -> update AngularApp base url here		 
 		 
 
 	appsettings.json
-   		** Update the value of the connection string for both NewsArticleStore in the ConnectionStrings section and connectionString in the Serilog section.
 
-6. Right click on the solution and build
-7. Run the WEbB API App by Ctrl + F5
+   		** Update the value of the connection string for both NewsArticleStore in the ConnectionStrings section and connectionString in the Serilog 			   section.
+
+7. Right click on the solution and build
+8. Run the WEbB API App by Ctrl + F5
 
  
 ## **Verification:** Verify the functionality of the APIs by testing with Postman or Swagger UI.
